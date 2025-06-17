@@ -4,8 +4,8 @@ objeto.make = "Toyota";
 var meucarro = { make: "Honda", model: "Accord", year: 1998 };
 var x, y;
 x = meucarro.make; // x recebe o valor "Honda"
-console.log(x)
+console.log(x);
 minhaFuncao(meucarro);
 y = meucarro.make; // y recebe o valor "Toyota"
 // (a propriedade make foi alterada pela função)
-console.log(y)
+console.log(y);
